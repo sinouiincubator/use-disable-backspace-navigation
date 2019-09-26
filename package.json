@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "module": "dist/sinouiincubator-use-disable-backspace-navigation.esm.js",
   "typings": "dist/index.d.ts",
+  "homepage": "https://sinouiincubator.github.io/use-disable-backspace-navigation/",
   "bugs": {
     "url": "https://github.com/sinouiincubator/use-disable-backspace-navigation/issues"
   },
