@@ -1,6 +1,39 @@
 # @sinouiincubator/use-disable-backspace-navigation
 
-这是由[ts-lib-scripts](https://github.com/sinoui/ts-lib-scripts)创建的TypeScript库项目。
+[![npm version](https://img.shields.io/npm/v/@sinouiincubator/use-disable-backspace-navigation)](https://www.npmjs.com/package/@sinouiincubator/use-disable-backspace-navigation)
+[![downloads](https://img.shields.io/npm/dm/@sinouiincubator/use-disable-backspace-navigation)](https://www.npmjs.com/package/@sinouiincubator/use-disable-backspace-navigation)
+
+阻止 IE、Firefox 等浏览器中按下 **回格键（ Backspace ）** 时页面发生回退的默认行为。
+
+## 安装
+
+```shell
+yarn add @sinouiincubator/use-disable-backspace-navigation
+```
+
+或者
+
+```shell
+npm add @sinouiincubator/use-disable-backspace-navigation --save
+```
+
+## 使用
+
+建议在 React 项目的根组件中添加，如 `App` 组件：
+
+```tsx
+import useDisableBackspaceNavigation from '@sinouiincubator/use-disable-backspace-navigation';
+
+function App() {
+  useDisableBackspaceNavigation();
+
+  return <div className="app" />;
+}
+```
+
+## 说明
+
+`use-disable-backspace-navigation` 不会影响正常的输入框（ `input` ）、多行文本框（ `textarea` ）、可编辑元素（ `contentEditable` ）的输入行为，即按回退键删除内容。更多细节见 [stackoverflow 上的讨论](https://stackoverflow.com/questions/1495219/how-can-i-prevent-the-backspace-key-from-navigating-back)。
 
 ## 本地开发
 
