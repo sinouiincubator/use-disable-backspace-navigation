@@ -1,6 +1,6 @@
 {
   "name": "@sinouiincubator/use-disable-backspace-navigation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "阻止浏览器中按下回格键页面发生回退的行为。",
   "license": "MIT",
   "main": "dist/index.js",
